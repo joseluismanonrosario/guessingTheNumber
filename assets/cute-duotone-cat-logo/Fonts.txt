@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Barlow Condensed
+Author: Jeremy Tribby
+Url: https://fonts.google.com/specimen/Barlow+Condensed
+
+Font: Short Stack
+Author: James Grieshaber
+Url: https://fonts.google.com/specimen/Short+Stack

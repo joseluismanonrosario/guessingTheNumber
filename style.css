@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    background-color: white;
+}
+
+body{
+    display:  flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    /* margin: 8px auto; */
+    
+
+}
+
+.title-section, .messages-box{
+    text-align: center;
+}
+
+.hero-image{
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+input{
+    color: #262F6A;
+    background-color: #E7BEFF;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+button{
+    color: #fdfdfd;
+    background-color: #FF6F04;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.title{
+    margin: -8px 0 8px 0;
+    color: #FF6F04;
+}
+
+.subtitle, .messages-box{
+    font-size: 1rem;
+    color:#262F6A;
+}
+
+

@@ -11,8 +11,5 @@ userInput.addEventListener('keydown',(e)=>{
 
 function guessChecker(){
     let userGuess=userInput.value;
-    alert(userGuess);
+    alert(`Your Guess is ${userGuess}`);
 }
-
-const x = ()=>{return Math.floor((Math.random() * 10) + 1)};
-alert(x());

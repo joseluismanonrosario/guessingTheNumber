@@ -1,5 +1,6 @@
 let userInput=document.getElementById("input-field");
 let checkBtn=document.getElementById("check-button");
+let messageBox=document.getElementById("messages");
 
 checkBtn.addEventListener('click',guessChecker);
 
@@ -11,5 +12,13 @@ userInput.addEventListener('keydown',(e)=>{
 
 function guessChecker(){
     let userGuess=userInput.value;
-    alert(`Your Guess is ${userGuess}`);
+    let finalMessage=(`Your Guess is ${userGuess}`);
+    messageBox.innerText=finalMessage;
+    clearUserInput();
 }
+
+function clearUserInput(){
+    userInput.value="";
+}
+
+

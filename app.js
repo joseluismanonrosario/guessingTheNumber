@@ -22,6 +22,7 @@ function guessChecker(){
 
 function setMessages(message){
     messageBox.innerText=message;
+    confirm(messageBox.innerText);
 }
 
 function clearUserInput(){

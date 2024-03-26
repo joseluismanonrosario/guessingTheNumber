@@ -22,6 +22,7 @@ function guessChecker(){
 
 function evaluateEntry(theNumber){
     if (theNumber == secretNumber){
+        confettiAction();
         return "Congratulations! You got it right.";
     } else if (theNumber > secretNumber) {
         return "Too high! Try again."; 
@@ -59,3 +60,32 @@ function initGame(){
 }
 
 initGame();
+
+
+function confettiAction(){
+    let end = Date.now() + (15 * 1000);
+
+    // go Buckeyes!
+    let colors = ['#262F6A', '#FF6F04'];
+
+    (function frame() {
+    confetti({
+        particleCount: 2,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: colors
+    });
+    confetti({
+        particleCount: 2,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: colors
+    });
+
+    if (Date.now() < end) {
+        requestAnimationFrame(frame);
+    }
+    }());
+}

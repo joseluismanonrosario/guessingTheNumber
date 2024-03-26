@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Madimi One", sans-serif;
-    background-color: white;
+    
 }
 
 body{
@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center; 
     height: 100vh;
+    background-color: white;
 }
 .container{
     display: flex;

@@ -23,6 +23,7 @@ function guessChecker(){
 function evaluateEntry(theNumber){
     if (theNumber == secretNumber){
         confettiAction();
+        initGame();
         return "Congratulations! You got it right.";
     } else if (theNumber > secretNumber) {
         return "Too high! Try again."; 
